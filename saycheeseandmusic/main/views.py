@@ -11,8 +11,12 @@ def audio_library(request):
 
 
 def developers_info(request):
-    paginator= Paginator(Song.objects.all(),1)
+    return render(request,"main/libmenutest.html")
+
+
+def suicide_boys_page(request):
+    paginator = Paginator(Song.objects.all(),1)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
     context={"page_obj": page_obj}
-    return render(request,"main/test.html", context)
+    return render(request, 'main/test.html', context)

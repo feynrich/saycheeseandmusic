@@ -44,8 +44,14 @@ $(function () {
     "$uicideBoyS, BONES",
   ];
   (albumArtworks = ["_1", "_2", "_3", "_4", "_5"]),
-    (trackUrl = "/media/images/SB_-_Kill_Yourelf.mp3"),
-    (playPreviousTrackButton = $("#play-previous")),
+    (trackUrl = [
+      "https://raw.githubusercontent.com/millerocky/saycheeseandmusic/master/saycheeseandmusic/media/images/SB_-_Kill_Yourelf.mp3",
+      "https://github.com/millerocky/saycheeseandmusic/blob/master/saycheeseandmusic/media/images/SB_-_Mak__da_Glock_Feat._Trippy_tha_Kid.mp3",
+      "https://github.com/millerocky/saycheeseandmusic/blob/master/saycheeseandmusic/media/images/SB_-_Maple_yrup_Feat._Bones.mp3",
+      "https://github.com/millerocky/saycheeseandmusic/blob/master/saycheeseandmusic/media/images/SB_-_Kill_Yourelf_Leaned_Out_RMX_Bonus_Track.mp3",
+      "https://github.com/millerocky/saycheeseandmusic/blob/master/saycheeseandmusic/media/images/SB_Maple_yrup_Feat_Bones_DJ_Poliwhirl.mp3",
+    ]);
+  (playPreviousTrackButton = $("#play-previous")),
     (playNextTrackButton = $("#play-next")),
     (currIndex = -1);
 

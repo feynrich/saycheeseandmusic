@@ -1,6 +1,6 @@
 import os
 import sys
-
+"Self-made"
 
 def main():
     """Run administrative tasks."""
